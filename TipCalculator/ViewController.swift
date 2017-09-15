@@ -17,10 +17,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var checkTotalText: UILabel!
     @IBOutlet weak var warningMessage: UILabel!
     
-    var checkAmountNum: Float = 0.00
-    var tipPercentNum: Float = 20
-    var tipAmountNum: Float = 0.00
-    var checkTotalNum: Float = 0.00
+    var checkAmountNum: Double = 0.00
+    var tipPercentNum: Double = 20
+    var tipAmountNum: Double = 0.00
+    var checkTotalNum: Double = 0.00
         
     @IBAction func GoButtonPressed(_ sender: Any) {             // User presses GO
         if checkAmountText.text == "" {
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         }
         else  {
             warningMessage.isHidden = true
-            checkAmountNum = Float(checkAmountText.text!)!
+            checkAmountNum = Double(checkAmountText.text!)!
             calculateStuff (checkAmountNum, tipPercentNum)
         }
     }
@@ -39,13 +39,13 @@ class ViewController: UIViewController {
         }
         else  {
             warningMessage.isHidden = true
-            checkAmountNum = Float(checkAmountText.text!)!
-        let tipPercentNum = Float(sender.value)
+            checkAmountNum = Double(checkAmountText.text!)!
+        let tipPercentNum = Double(sender.value)
         calculateStuff (checkAmountNum, tipPercentNum)
         }
     }
     
-    func calculateStuff (_ amount: Float, _ percent: Float)  {              // Calculates and displays values
+    func calculateStuff (_ amount: Double, _ percent: Double)  {              // Calculates and displays values
         let checkTotalNum = amount + amount * percent / 100
         tipPercentNum = percent
         tipPercentText.text = "Gratuity = \(String(format: "%.0f%", tipPercentNum))%"
