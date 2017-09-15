@@ -14,6 +14,7 @@
 		0FC51B281F3CC6BC0077770A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC51B261F3CC6BC0077770A /* LaunchScreen.storyboard */; };
 		0FC51B331F3CC6BC0077770A /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC51B321F3CC6BC0077770A /* TipCalculatorTests.swift */; };
 		0FC51B3E1F3CC6BC0077770A /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC51B3D1F3CC6BC0077770A /* TipCalculatorUITests.swift */; };
+		0FC51B4C1F3CF2500077770A /* th-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0FC51B4B1F3CF2500077770A /* th-2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0FC51B391F3CC6BC0077770A /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC51B3D1F3CC6BC0077770A /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		0FC51B3F1F3CC6BC0077770A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FC51B4B1F3CF2500077770A /* th-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "th-2.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				0FC51B1F1F3CC6BC0077770A /* ViewController.swift */,
 				0FC51B211F3CC6BC0077770A /* Main.storyboard */,
 				0FC51B241F3CC6BC0077770A /* Assets.xcassets */,
+				0FC51B4B1F3CF2500077770A /* th-2.jpeg */,
 				0FC51B261F3CC6BC0077770A /* LaunchScreen.storyboard */,
 				0FC51B291F3CC6BC0077770A /* Info.plist */,
 			);
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC51B4C1F3CF2500077770A /* th-2.jpeg in Resources */,
 				0FC51B281F3CC6BC0077770A /* LaunchScreen.storyboard in Resources */,
 				0FC51B251F3CC6BC0077770A /* Assets.xcassets in Resources */,
 				0FC51B231F3CC6BC0077770A /* Main.storyboard in Resources */,
@@ -417,6 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SEX35X735R;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terramarvisions.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SEX35X735R;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terramarvisions.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +520,7 @@
 				0FC51B441F3CC6BC0077770A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FC51B451F3CC6BC0077770A /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				0FC51B471F3CC6BC0077770A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FC51B481F3CC6BC0077770A /* Build configuration list for PBXNativeTarget "TipCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				0FC51B4A1F3CC6BC0077770A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
